@@ -1,0 +1,15 @@
+{
+  "name": "spin2win-wheel",
+  "version": "1.0.0",
+  "description": "A customizable spin2win wheel for web applications, with backend support to save results.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["spin2win", "wheel", "game", "nodejs", "express"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!-- Spin2Win Wheel HTML Template -->
+<!-- Author: MD Asaduzzaman -Areban-->
+<!-- Description: This is the HTML structure for the Spin2Win wheel, including the spinning wheel and the result display. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin2Win Wheel</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main" class="main">
+        <!-- Spinning Wheel Container -->
+        <div id="wheel" class="wheel">
+            <div>
+                <!-- Each segment of the wheel represented by a span element -->
+                <span class="span1"><small>5% Voucher</small></span>
+                <span class="span2"><small>10% Discount</small></span>
+                <span class="span3"><small>Free Shipping</small></span>
+                <span class="span4"><small>15% Voucher</small></span>
+                <span class="span5"><small>$5 Gift Card</small></span>
+                <span class="span6"><small>20% Discount</small></span>
+                <span class="span7"><small>Buy 1 Get 1 Free</small></span>
+                <span class="span8"><small>Try Again</small></span>
+            </div>
+        </div>
+        <!-- Spin button to trigger the spinning action -->
+        <button class="spin" onclick="letsSpin()">SPIN</button>
+        <!-- Result display area -->
+        <div class="result" id="result">Result: </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
